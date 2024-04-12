@@ -10,10 +10,21 @@
   $ sudo mkdir data
   $ cd data
   $ sudo vi MyContract.sol
-   Run this Contract in the docker image we just pull:
+   ```
+  Run this Contract in the docker image we just pull:
   ```
   $ docker run -it -v $PWD:/data devopstestlab/solgraph
   ```
   View the image using:
-  ![image](https://github.com/SandeepKumar0509/Solidity--Security_audit-Blockchain-/assets/143065262/53938d26-49ec-4402-93d7-16c8fdd684b9)
+  - For Ubuntu/Linux
+    ```
+    $ xdg-open MyContract.sol.png
+    ```
+  - Wsl Ubuntu
+ 
+    ```
+    $ eog MyContract.sol.png
+    ```
+
+![image](https://github.com/SandeepKumar0509/Solidity--Security_audit-Blockchain-/assets/143065262/427e970a-5779-4775-a49b-b76c13dbc337)
 
