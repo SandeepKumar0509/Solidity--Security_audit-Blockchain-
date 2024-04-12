@@ -2,12 +2,10 @@
 Surya is an utility tool for smart contract systems. 
 It provides a number of visual outputs and information about the contracts' structure
 It also supports querying the function call graph in multiple ways to aid in the manual inspection of contracts.
+ # Why we need Surya ?
+ 
+Developers using Surya gain a visual representation of a Solidity smart contract's underlying structure.
 
-# Surya
-Surya is a tool for smart contract visualization and analysis for Ethereum.
-It provides insights into the structure of Solidity smart contracts by generating
-interactive diagrams and graphs, allowing developers and auditors to better understand 
-the relationships between different parts of the contract code.
 
 # How to Install Surya
 Step-1: Install Node.js and npm if not installed.
@@ -31,3 +29,7 @@ Step-4: To verify if Surya is installed or not use:
 ```
 surya --version
 ```
+# OUTPUT
+
+
+![output](https://github.com/SandeepKumar0509/Solidity--Security_audit-Blockchain-/assets/143065262/1d98f71b-8fff-487e-8e47-ffe8608d94f7)
