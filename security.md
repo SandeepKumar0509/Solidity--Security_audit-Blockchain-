@@ -35,7 +35,7 @@ touch contractname.sol
 ```
 nano
 ```
-- Write a contract
+- Write a contract ( you can find it on github)
 ```
 pragma solidity ^0.4.15;
 
@@ -80,3 +80,25 @@ contract CrowdFundSafe {
 }
 ```
 
+# after that make a Local copy of a contract file using these commands :-
+
+
+ 
+```
+$ solc-select use Solidity-compilerversion(like 0.5.15)
+
+$ slither filename.sol
+```
+
+## Solgraph (solc converts from a high-level solidity language into Ethereum Virtual Machine (EVM) bytecode so that it can be executed on the blockchain by EVM)
+#### Pre-requisite 
+- Install Docker
+- Pull devopstestlab/solgraph:
+  ```
+  $ docker pull devopstestlab/solgraph
+  ```
+  #### Create the Smart Contract in Solidity
+  ```
+  $ sudo mkdir data
+  $ cd data
+  $ sudo vi MyContract.sol
