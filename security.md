@@ -90,15 +90,13 @@ $ solc-select use Solidity-compilerversion(like 0.5.15)
 $ slither filename.sol
 ```
 
-## Solgraph (solc converts from a high-level solidity language into Ethereum Virtual Machine (EVM) bytecode so that it can be executed on the blockchain by EVM)
-#### Pre-requisite 
-- Install Docker
-- Pull devopstestlab/solgraph:
-  ```
-  $ docker pull devopstestlab/solgraph
-  ```
-  #### Create the Smart Contract in Solidity
-  ```
-  $ sudo mkdir data
-  $ cd data
-  $ sudo vi MyContract.sol
+ 
+  - For Ubuntu/Linux
+    ``` 
+    $ xdg-open MyContract.sol.png
+    ```
+  - Wsl Ubuntu
+    ```
+    $ eog MyContract.sol.png
+    
+    ![320475753-d4de0fa4-815c-4458-b617-a195e225606f](https://github.com/SandeepKumar0509/Solidity--Security_audit-Blockchain-/assets/143065262/6d53c415-139d-4f70-8e72-ee0abc7d2089)
