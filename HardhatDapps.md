@@ -18,3 +18,10 @@ sudo apt install curl git
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt-get install -y nodejs
 ```
+# if you are facing some problems than you can run these below commands to solve the problems 
+```
+sudo apt remove libnode-dev
+sudo apt install -f
+sudo apt upgrade nodejs
+sudo apt autoremove
+```
